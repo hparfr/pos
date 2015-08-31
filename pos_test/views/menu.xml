@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openerp>
+    <data>
+
+<!-- Model: 'product.pricetag.wizard' -->
+        <menuitem id="menu_product_pricetag_wizard"
+            parent="base.menu_product" sequence="45"
+            action="action_create_pos_test"/>
+
+    </data>
+</openerp>

@@ -1,0 +1,5 @@
+
+/* This file fix an incompatibility if we load the file /web/static/src/css/base.css */
+.openerp .oe_application > div {
+    position: static;
+}

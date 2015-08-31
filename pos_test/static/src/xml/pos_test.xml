@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+
+    <t t-extend="PosWidget" t-operation="replace">
+        <t t-jquery=".order-selector" t-operation="append">
+            <span id="button_pos_test" class="order-button">PoS Test</span>
+        </t>
+    </t>
+
+</template>

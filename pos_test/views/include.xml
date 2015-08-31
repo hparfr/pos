@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <template id="assets_backend" name="pos_test assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/pos_test/static/src/js/pos_test.js"></script>
+            </xpath>
+        </template>
+        <template id="index_pos_test" name="POS Index PoS Test" inherit_id="point_of_sale.index">
+            <xpath expr="//head" position="before">
+
+<!--base.css has a problem if loaded in PoS, pos_fix.css fix the bug -->
+                <link rel="stylesheet" href="/web/static/src/css/base.css"/>
+                <link rel="stylesheet" href="/pos_test/static/src/css/pos_fix.css"/>
+                <link rel="stylesheet" href="/web/static/src/css/data_export.css"/>
+                <link rel="stylesheet" href="/web/static/src/css/full.css"/>
+                <link rel="stylesheet" href="/web/static/src/css/ie.css"/>
+
+            </xpath>
+        </template>
+    </data>
+</openerp>
