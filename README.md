@@ -5,3 +5,4 @@ pos
 ===
 
 Point of sale
+test.
